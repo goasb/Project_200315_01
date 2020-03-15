@@ -1,0 +1,11 @@
+/* main.css */
+/* @mixin myname(){}   // @include myname(); @function myFn(){}  // myFn(); */
+head { overflow-x: hidden; overflow-y: auto; }
+
+body { overflow-x: hidden; overflow-y: auto; }
+
+#wrap { font-size: 0.8rem; }
+
+@media screen and (min-width: 1280px) and (max-width: 1919px) { #wrap { width: 100%; height: 100%; background-color: #faf; } }
+
+body { overflow-X: hidden; overflow-Y: auto; }
