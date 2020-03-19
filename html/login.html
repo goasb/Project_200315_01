@@ -10,7 +10,8 @@
    <link rel="stylesheet" href="../css/base/reset.css">
    <link rel="stylesheet" href="../css/base/common.css">
    <link rel="stylesheet" href="../css/main.css">
-   
+   <link rel="stylesheet" href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css">
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:500,700&amp;display=swap">
 
    <!--[if lte IE 9]>
    <script src="./ie/html5shiv-3.7.3/dist/html5shiv.min.js"> </script>
@@ -29,53 +30,34 @@
   <p><a target="_blank" href="http://enable-javascript.com/ko"></a>자바스크립트 활성화 처리하기</p>
  </noscript>
  <!-- noscript ================================================== -->
-<div id="wrap">
-   <header id="headBox">
-      <h1><a href="main.html"><span>LOGO</span></a></h1>
-   </header>
 
-   <section id="banner">
-      <div class="ring">
-         <video loop muted playsinline autoplay>
-            <source type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' 
-            src="https://www.ringba.com/assets/video/white-label-features-bg.mp4"/>
-        </video>
-      </div>
-      <div class="left_nav">
-         <div class="brandName">
-            <span>Brand Name</span>
-         </div>
-
-         <div class="menu">
-            <ul>
-               <li><a href="login.html"><span>로그인</span></a></li>
-               <li><a href="#"><span>브랜드</span></a></li>
-               <li><a href="#"><span>소개</span></a></li>
-               <li><a href="#"><span>소개</span></a></li>
-            </ul>
-         </div> <!-- menu -->
-      </div> <!-- left_nav -->
-
-      <div class="right_nav">
-         <ul>
-            <li><a href="#"><span class="hidden">1</span></a></li>
-            <li><a href="#"><span class="hidden">2</span></a></li>
-            <li><a href="#"><span class="hidden">3</span></a></li>
-            <li><a href="#"><span class="hidden">4</span></a></li>
-         </ul>
-      </div> <!-- right_nav -->
-   </section> <!-- banner -->
-
-
-   <section id="product_intro"></section>
-   <section id="bi"></section>
-   <footer id="footBox"></footer>
-</div>  
-
-
-
-
-
+<form>
+    <div class="segment">
+      <h1>Sign up</h1>
+    </div>
+    
+    <label>
+      <input type="text" placeholder="Email Address"/>
+    </label>
+    <label>
+      <input type="password" placeholder="Password"/>
+    </label>
+    <button class="red" type="button"><i class="icon ion-md-lock"></i> Log in</button>
+    
+    <div class="segment">
+      <button class="unit" type="button"><i class="icon ion-md-arrow-back"></i></button>
+      <button class="unit" type="button"><i class="icon ion-md-bookmark"></i></button>
+      <button class="unit" type="button"><i class="icon ion-md-settings"></i></button>
+    </div>
+    
+    <div class="input-group">
+      <label>
+        <input type="text" placeholder="Email Address"/>
+      </label>
+      <button class="unit" type="button"><i class="icon ion-md-search"></i></button>
+    </div>
+    
+  </form>
 
 <script src="../js/base/jquery-3.4.1.min.js"></script>
 <script src="../js/base/jquery-ui.min.js"></script>
